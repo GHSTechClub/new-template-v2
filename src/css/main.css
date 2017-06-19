@@ -1,0 +1,48 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+:root{
+  --yellow: #ffc102;
+  --blue: #003a8c;
+  --red: #c33c54;
+  --jean-blue: #254e70;
+  --gray-blue: #37718e;
+  --gray: #3c3c3c;
+}
+/*Colors*/
+.yellow{
+    color: var(--yellow);
+}
+.white{
+    color: white;
+}
+
+/*Parts*/
+/*Top Bar*/
+.topbar {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: var(--gray);
+    top: 0;
+    left: 0;
+}
+.logo{
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+.logo > img{
+    height: 100%;
+}
+.logoText{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+.logo h1{
+    margin-top: 40px;
+    font-size: 300%;
+}
+.
