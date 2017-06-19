@@ -9,6 +9,8 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <meta name="google-signin-client_id" content="313388870048-im4v85usrcf4h3nj41e169qt81238va8.apps.googleusercontent.com">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
     </head>
     <body>
         <!--topbar-->
@@ -25,9 +27,23 @@
             <div class="ts"></div>
         </div>
         <div class="sidebar">
+            <div class="logo-sidebar" style="height: 100px;display: block;">
+                <img src="./src/img/logo.svg" style="height: 100%;">
+                <h3 class="yellow">Grossmont</h3>
+                <h2>High School</h2>
+            </div>
             <div className="g-signin2" data-onsuccess="onSignIn"></div>
+            <div class="nav-item">
+                <i class="material-icons">home</i>
+                <h1><a href="#">Home</a></h1>
+            </div>
+            <div class="nav-item">
+                <i class="material-icons">search</i>
+                <h1><a href="#">Search</a></h1>
+            </div>
             
         </div>
+        <blocker></blocker>
     </body>
 
 
