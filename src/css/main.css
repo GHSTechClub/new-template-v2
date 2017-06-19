@@ -45,4 +45,34 @@ body{
     margin-top: 40px;
     font-size: 300%;
 }
-.
+.trigger{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 60px;
+    height: auto;
+}
+.ts:first-child{
+    width: 100%;
+    height: 10px;
+    background-color: var(--yellow);
+}
+.ts:nth-child(2){
+    width: 80%;
+    height: 10px;
+    background-color: var(--yellow);
+    float: right;
+    margin-top: 10px;
+}
+.ts:nth-child(3){
+    width: 60%;
+    height: 10px;
+    background-color: var(--yellow);
+    float: right;
+    margin-top: 10px;
+    
+}
+.trigger:hover, .ts:nth-child(2), .ts:nth-child(3){
+    float: left;
+}
