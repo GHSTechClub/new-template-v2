@@ -1,11 +1,13 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <title>G Clubs</title>
         <!--Internal Link-->
         <link rel="stylesheet" href="./src/css/main.css">
         <!--External Links-->
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="313388870048-im4v85usrcf4h3nj41e169qt81238va8.apps.googleusercontent.com">
     </head>
     <body>
         <!--topbar-->
@@ -21,7 +23,10 @@
             <div class="ts"></div>
             <div class="ts"></div>
         </div>
-
+        <div class="sidebar">
+            <div className="g-signin2" data-onsuccess="onSignIn"></div>
+            
+        </div>
     </body>
 
 

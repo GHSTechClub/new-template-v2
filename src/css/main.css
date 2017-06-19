@@ -62,17 +62,23 @@ body{
     width: 80%;
     height: 10px;
     background-color: var(--yellow);
-    float: right;
+    margin-left: 10px;
     margin-top: 10px;
+    transition: all 50ms;
 }
 .ts:nth-child(3){
     width: 60%;
     height: 10px;
     background-color: var(--yellow);
-    float: right;
+    margin-left: 20px;
     margin-top: 10px;
-    
+    transition: all 50ms;
 }
-.trigger:hover, .ts:nth-child(2), .ts:nth-child(3){
-    float: left;
+.trigger:hover > .ts:nth-child(2),.trigger:hover > .ts:nth-child(3){
+    margin-left: 0px;
+}
+
+/*Sidebar*/
+.sidebar{
+
 }
